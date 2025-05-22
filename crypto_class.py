@@ -152,9 +152,9 @@ class data_encryption:
         }
 
         decrypt_alph = {}
-        for harf, kodlar in alphabet.items():
-            for kod in kodlar:
-                decrypt_alph[kod] = harf
+        for letter, codes in alphabet.items():
+            for code in codes:
+                decrypt_alph[code] = letter
 
         pieces_backwards = {
             "1": "B",
